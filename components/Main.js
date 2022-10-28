@@ -25,7 +25,7 @@ const Main = () => {
           </p>
           <div className='flex items-center  justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/kartikey20gupta/'
               target='_blank'
               rel='noreferrer'
             >
