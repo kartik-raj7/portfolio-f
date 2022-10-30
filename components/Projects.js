@@ -1,10 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/images/quoteio.png';
-import cryptoImg from '../public/images/voyager.png'
-import netflixImg from '../public/images/weather.png'
-import twitchImg from '../public/images/todolist.png'
+import quoteioimg from '../public/images/quoteio.png';
+import Voyagerimg from '../public/images/voyager.png'
+import weatherimg from '../public/images/weather.png'
+import Todolist from '../public/images/todolist.png'
+import Portfolio from '../public/images/portfolio-f.png'
+import Blog from '../public/images/Blog.png'
 import ProjectCard from './ProjectCard';
 
 const Projects = () => {
@@ -18,44 +20,44 @@ const Projects = () => {
         <center><h2 className=' border-white pb-20'>What I&apos;ve Built</h2></center>
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectCard
-            title='Property Finder'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-            tech='React JS'
+            title='Quoteio'
+            backgroundImg={quoteioimg}
+            projectUrl='https://github.com/kartik-raj7/quoteio'
+            tech='React JS, SASS , Javascript'
           />
           <ProjectCard
-            title='Crypto App'
-            backgroundImg={cryptoImg}
-            projectUrl='/crypto'
-            tech='React JS'
+            title='Voyager'
+            backgroundImg={Voyagerimg}
+            projectUrl='https://github.com/kartik-raj7/voyager'
+            tech='React JS, SASS , Javascript , EmailJs'
 
           />
           <ProjectCard
-            title='Netflix App'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-            tech='React JS'
+            title='Weather App'
+            backgroundImg={weatherimg}
+            projectUrl='https://github.com/kartik-raj7/weatherapp'
+            tech='React JS , Javascript , WeatherApi'
+
+          />
+           <ProjectCard
+            title='Blog'
+            backgroundImg={Blog}
+            projectUrl='https://github.com/kartik-raj7/blog'
+            tech='ReactJS ,  MongoDbCompass ,ExpressJS , NodeJS , MaterialUI , JavaScript , EmailJS ,'
+
+          />
+           <ProjectCard
+            title='Portfolio'
+            backgroundImg={Portfolio}
+            projectUrl='https://kartikeygupta-folio.netlify.app/'
+            tech='Next JS , TailwindCSS , ReactJs , React-Icons , EmailJs'
 
           />
           <ProjectCard
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />
-          <ProjectCard
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
-
-          />
-          <ProjectCard
-            title='Twitch UI'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-            tech='Next JS'
+            title='TodoList'
+            backgroundImg={Todolist}
+            projectUrl='https://github.com/kartik-raj7/Todo-List'
+            tech='HTML , CSS ,JavaScript'
 
           />
         </div>
