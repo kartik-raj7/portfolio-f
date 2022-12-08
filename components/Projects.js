@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import quoteioimg from '../public/images/quoteio.png';
 import Voyagerimg from '../public/images/voyager.png'
-import weatherimg from '../public/images/weather.png'
+import moviesea from '../public/images/MovieSea.png'
 import Todolist from '../public/images/todolist.png'
 import Portfolio from '../public/images/portfolio-f.png'
 import Blog from '../public/images/Blog.png'
@@ -33,10 +33,10 @@ const Projects = () => {
 
           />
           <ProjectCard
-            title='Weather App'
-            backgroundImg={weatherimg}
-            projectUrl='https://github.com/kartik-raj7/weatherapp'
-            tech='React JS , Javascript , WeatherApi'
+            title='MovieSea'
+            backgroundImg={moviesea}
+            projectUrl='https://github.com/kartik-raj7/moviesea'
+            tech='HTML , SCSS , React JS , Redux , Thunk , OmdbAPI '
 
           />
            <ProjectCard
