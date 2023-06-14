@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.366",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "three-globe": "^2.27.2",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
