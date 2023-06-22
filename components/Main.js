@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import Spline from '@splinetool/react-spline';
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center flex justify-center items-center lg:flex-row sm:flex-col'>
+    <div id='home' className='w-full h-screen text-center flex  flex-col justify-center items-center lg:flex-row '>
     <div className=' h-screen text-center'>
       <div className='max-w-[1040px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
@@ -60,9 +60,9 @@ const Main = () => {
       
     </div>
     <div className="h-screen flex justify-center items-center">
-    <div className="max-w-[600px] h-full flex justify-center items-center">
+    {/* <div className="max-w-[500px] h-full flex justify-center items-center">
       <Spline style={{display:'flex',justifyContent:'center',alignItems:'center'}}scene="https://prod.spline.design/mr93lLYd1-lHCmlv/scene.splinecode" />
-    </div>
+    </div> */}
   </div>
     </div>
   );

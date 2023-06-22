@@ -12,7 +12,7 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   return (
     <div id='projects' className='w-full'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+      <div className='max-w-[1240px] mx-auto px-8 py-40'>
         <center><p className='text-xl tracking-widest uppercase text-[#61dafb] pb-10'>
           Projects
         </p>
